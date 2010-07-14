@@ -1,10 +1,8 @@
 $$course: 8.02
 $$lecture:16
-$$type: notes
 $$date: 2010-01-10
-$$source: 8.02 Lecture 16
 $$title: Electromagnetic Induction; Faraday's Law
-$$use-outline: true
+
 
 Changing magnetic field causes current
 	in direction that creates a magnetic field opposing change

@@ -1,10 +1,7 @@
 $$course: 8.02
 $$lecture:10
-$$type: notes
 $$date: 2010-01-10
-$$source: 8.02 Lecture 10
 $$title: Batteries and EMF
-$$use-outline: true
 
 In resistor part of circuit, current goes in the same direction as electric field, but in power source, electric field still goes + to -, so field is in opposite direction of current -- something must push the charge against the electric field.
 

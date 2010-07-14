@@ -1,10 +1,7 @@
 $$course: 8.02
 $$lecture:4
-$$type: notes
 $$date: 2010-01-18
-$$source: 8.02 Lecture 4
 $$title: Electrostatic Potential
-$$use-outline: true
 
 *<m>U</m> = Electrostatic Potential Energy
 	<m>W = \int\limits_\infty^R \vec{F_{push}} \cdot \vec{dr} = \int\limits^\infty_R \vec{F_{el}} \cdot \vec{dr}</m>

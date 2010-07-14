@@ -1,8 +1,6 @@
 $$course:8.01
 $$lecture:14
-$$type: notes
 $$date: 2009-09-15
-$$source: 8.01 Lecture 14
 $$title: Circular Orbits, Power
 
 (1) <math> E = \frac{1}{2}mv^2 - \frac{mMG}{r} </math> total kinetic + potential energy (with PE negative; 0 at infinity)  
@@ -25,7 +23,7 @@ escape velocity is <math>\sqrt{2}</math> times larger than orbital
 
   <math>P = \frac{dW}{dt}</math>
   
-  "We also know power in terms of political power. That's very different:  Political power, you can do no work at all in a lot of time, and you have a lot of power. Here in physics, life is not that easy."
+  "We also know power in terms of political power. That's very different:  Political power, you can do no work at all in a lot of time, and you have a lot of power. Here in physics, life is not that easy." --Walter Lewin
   
   <math> dW = F \dot ds </math> (s = displacement) </math>
   

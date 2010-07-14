@@ -1,10 +1,7 @@
 $$course: 8.02
 $$lecture:30
-$$type: notes
 $$date: 2010-01-10
-$$source: 8.02 Lecture 30
 $$title: Polarization, Scattering
-$$use-outline: true
 
 Malus's Law
 	<m>I_1 = I_0 cos^2 \theta</m>

@@ -1,10 +1,7 @@
 $$course: 8.02
 $$lecture:17
-$$type: notes
 $$date: 2010-01-10
-$$source: 8.02 Lecture 17
 $$title: Motional EMF; Dynamos; Eddy Currents
-$$use-outline: true
 
 <m>\Phi_B = \int B . dA = xy B cos \theta</m>
 	current induced <m>\propto \frac{d\Phi}{dt}</m> so changing area, angle, or magnetic field induces current

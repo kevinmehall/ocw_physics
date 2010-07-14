@@ -1,10 +1,7 @@
 $$course: 8.02
 $$lecture:25
-$$type: notes
 $$date: 2010-01-10
-$$source: 8.02 Lecture 25
 $$title: LRC Circuits
-$$use-outline: true
 
 <m>\oint E.dl = V_c + 0 + IR -V_0 cos \omega t = - L \frac{dI}{dt}</m>
 <m>I = \frac{dQ}{dt}</m>

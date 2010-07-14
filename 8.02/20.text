@@ -1,10 +1,7 @@
 $$course: 8.02
 $$lecture:20
-$$type: notes
 $$date: 2010-01-10
-$$source: 8.02 Lecture 20
 $$title: Inductance
-$$use-outline: true
 
 <m>L=</m> self-inductance
 	Unit: Henry (H) = V sec A^-1

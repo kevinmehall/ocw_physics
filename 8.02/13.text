@@ -1,10 +1,7 @@
 $$course: 8.02
 $$lecture:13
-$$type: notes
 $$date: 2010-01-10
-$$source: 8.02 Lecture 13
 $$title: Moving Charges in Magnetic Fields
-$$use-outline: true
 
 <m>qvB = \frac{mv^2}{R}; R = \frac{mv}{qB} = \sqrt{\frac{2mV}{qB^2}}</m>
 

@@ -4,6 +4,7 @@ default_filters = [filters.outline]
 
 default_vars = {
 	'course': '',
+	'type': 'notes',
 }
 
 var_filters = {

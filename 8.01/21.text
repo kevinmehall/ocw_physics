@@ -1,8 +1,6 @@
 $$course:8.01
 $$lecture:21
-$$type: notes
 $$date: 2009-10-01
-$$source: 8.01 Lecture 21
 $$title: Angular Momentum and Torque
 
  <math>\alpha = \ddot{\theta}; \quad \omega = \dot{\theta}</math>

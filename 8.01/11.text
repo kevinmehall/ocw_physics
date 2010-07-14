@@ -1,8 +1,6 @@
 $$course:8.01
 $$lecture:11
-$$type: notes
 $$date: 2009-09-09
-$$source: 8.01 Lecture 11
 $$title: Work and Energy
 
 (1) <math> W = \int\limits_A^B F \, dx </math>

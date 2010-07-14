@@ -1,17 +1,12 @@
 $$course:8.01
 $$lecture:25
-$$type: notes
 $$date: 2009-10-14
-$$source: 8.01 Lecture 25
 $$title: Static Equilibrium
 
 
 Static equilibrium: <math>\sum{F} = 0</math> and <math>\sum{\tau} = 0</math> around any point
 
-
-
 Friction can be used to help balance:
-
 
 Frictional force on a rope wrapped around a rod: integral of individual forces around angle
 

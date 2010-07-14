@@ -1,8 +1,6 @@
 $$course:8.01
 $$lecture:12
-$$type: notes
 $$date: 2009-09-11
-$$source: 8.01 Lecture 12
 $$title: Drag and Resistive Forces
 
 (1) <math>F_{res} = - (k_1 v + k_2 v^2) \hat{v} </math>
