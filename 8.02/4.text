@@ -1,0 +1,38 @@
+$$course: 8.02
+$$lecture:4
+$$type: notes
+$$date: 2010-01-18
+$$source: 8.02 Lecture 4
+$$title: Electrostatic Potential
+$$use-outline: true
+
+*<m>U</m> = Electrostatic Potential Energy
+	<m>W = \int\limits_\infty^R \vec{F_{push}} \cdot \vec{dr} = \int\limits^\infty_R \vec{F_{el}} \cdot \vec{dr}</m>
+		because forces are in opposite directions
+	<m>W = \frac{q_1 q_2}{4 \pi \epsilon_0} \int\limits^\infty_R \frac{dr}{r^2}</m>
+		<m>\int\limits^\infty_R \frac{dr}{r^2} = \frac{1}{R}</m>
+	*<m>U = \frac{q_1 q_2}{4 \pi \epsilon_0 R}</m>
+		sign-sensitive w.r.t. charges
+	
+
+*<m>V</m> = Electric Potential
+	Work per unit charge to go from infinity to this location
+	<m>V_p = \frac{Q}{4 \pi \epsilon_0 R}</m>
+	J / C = Volts
+	
+	<m>V = \int\limits_r^\infty \frac{\vec{F_{el}}}{q} \cdot \vec{dr} = \int\limits_r^\infty \vec{E} \cdot \vec{dr}</m>
+		
+	<m>W = \Delta Vq</m>
+	Potential inside hollow metal sphere is constant = same as surface
+	
+	*Equipotential lines
+		Field lines always perpendicular
+		Never intersect
+		
+	With multiple charges, add potential for all
+	
+	*Potential Difference
+		<m>V_A = \int\limits_A^\infty \vec{E} \cdot \vec{dl}</m>
+		<m>V_B = \int\limits_B^\infty \vec{E} \cdot \vec{dl}</m>
+		<m>V_A - V_B = \int\limits_A^B \vec{E} \cdot \vec{dl}</m>
+

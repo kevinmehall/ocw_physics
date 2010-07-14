@@ -1,0 +1,41 @@
+$$course:8.01
+$$lecture:16
+$$type: notes
+$$date: 2009-09-17
+$$source: 8.01 Lecture 16
+$$title: Collisions
+
+(1) <math>K + Q = K'</math>  
+ <math>K &gt; 0</math> superelastic   
+ <math>K=0</math> Perfect elastic  
+ <math>K &lt; 0</math> inelastic
+ 
+#### Perfect elastic collisions with stationary object
+
+ <math>\frac{1}{2} m_1 v_1^2  = \frac{1}{2} m_1 v_1'^2 + \frac{1}{2} m_2 v_2'^2</math>  
+ <math>v_1' = (\frac{m_1 - m_2}{m_1 + m_2}) v_1</math>  
+ <math>v_2' = (\frac{2m_1}{m_1+m_2}) v_1</math>
+ 
+ <math>m_1 \gg m_2</math> : <math>v_1' = v_1 ; v_2' = 2v_1</math>
+
+ <math>m_1 \ll m_2</math> : <math>v_1' = -v_1 ; v_2 = 0</math>
+ 
+ <math>m_2 = m_1</math> : <math> v_1' = 0 ; v_2' = v_1</math> (Newton's cradle)
+ 
+ Elastic collision demo at ~15:00
+ 
+#### Center of mass frame of reference
+
+Total momentum from center of mass is 0
+
+Velocity of center of mass is constant
+
+Relative to the center of mass, after an elastic collision, velocities are the same and in the opposite direction.
+
+ <math>M_{tot} r_{cm} = m_1 r_1 + m_2 r_2</math>  
+ derivative of r is v ->   
+<math>v_{cm} = \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}</math>
+
+Inelastic collisions -> all kinetic energy lost in frame of center of mass (internal kinetic energy)
+
+inelastic collisions demo at ~42:30

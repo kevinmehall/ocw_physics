@@ -1,0 +1,27 @@
+$$course:8.01
+$$lecture:17
+$$type: notes
+$$date: 2009-09-21
+$$source: 8.01 Lecture 17
+$$title: Impulse
+
+Ballistic Pendulum demo at ~9:00
+
+(1) <math>\vec{I} = \int \limits_0^{\Delta t} F \, dt = \int \limits_0^{\Delta t} \frac{dp}{dt} dt = \int \limits_{p_i}^{p_f} dp = p_f - p_i</math>
+
+ <math> F = \frac{I}{\Delta t}</math>
+ 
+ Thrust =  <math> F = \frac{dm}{dt} v </math>
+ 
+#### Rocket Equation 
+ u = velocity of exhaust  
+ At time <math>t</math>: <math>p = mv</math>  
+ At time <math>t + \Delta t</math> : <math>p = (m - \Delta m)(v + \Delta v) + \Delta m (v - u) = mv + m \Delta v - u \Delta m</math>  
+ <math> \Delta p = 0 = m \Delta v - u \Delta m </math>  
+ <math> \frac{dp}{dt} = 0 = ma - u \frac{dm}{dt}</math>  
+ <math> ma = F_{thrust} </math>
+
+<a href = 'http://ocw.mit.edu/NR/rdonlyres/Physics/8-01Physics-IFall1999/77BBA399-5FAB-4A16-AA53-29A30382EEB2/0/supplement8.pdf'> ...  (more deriviation)</a>
+
+ <math>v_f - v_i = -u \ln ( \frac{m_f}{m_i}) - gt</math>
+

@@ -1,0 +1,31 @@
+$$course:8.01
+$$lecture:11
+$$type: notes
+$$date: 2009-09-09
+$$source: 8.01 Lecture 11
+$$title: Work and Energy
+
+(1) <math> W = \int\limits_A^B F \, dx </math>
+ 
+ <math>F = ma = m \frac{dv}{dt}</math> and <math>dx = v\, dt</math>
+ 
+(2) Substitute in (1): <math> W = \int\limits_A^B m v \, dv = \frac{1}{2}mv^2 </math> (kinetic energy)
+
+Conservative force: a force whose work is independent of path  
+ex: gravity, spring forces, but not friction
+
+Potential energy = <math>U = mgh</math>
+
+(3) <math>U_a + KE_a = U_b + KE_b</math> (only true of conservative force)
+
+
+ <math> h > 2.5 r</math> for a ball to be dropped from height h and then go around a loop
+of radius r (due to the necessary centripetal acceleration <math>\frac{v^2}{r} > g</math>)  
+<math>gh = \frac{1}{2}v^2</math>  
+<math> g(h - 2r) = \frac{1}{2}  v^2</math>  
+<math>  2 g (h - 2r) = v^2</math>  
+<math>  g(2h - 4r) > gr</math>  
+<math> 2h - 4r > r </math>  
+<math> h > \frac{5}{2} r </math>
+
+Gravitiational Potential Energy = <math>W = \int\limits_\infty^R \frac {m M G}{r^2} dr = \frac{-mMG}{R}</math>

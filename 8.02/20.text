@@ -1,0 +1,44 @@
+$$course: 8.02
+$$lecture:20
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 20
+$$title: Inductance
+$$use-outline: true
+
+<m>L=</m> self-inductance
+	Unit: Henry (H) = V sec A^-1
+<m>\phi_B = LI</m>
+<m>{emf}_{induced} = \frac{-d\phi}{dt} = L\frac{dI}{dt}</m>
+
+Solenoid
+	<m>B = \frac{\mu_0 I N}{l}</m>
+	<m>\phi_b = \pi r^2 N B = \pi r^2 N^2 \frac{\mu_0 I}{l}</m>
+	<m>L = \pi r^2 \frac{N^2}{l}\mu_0</m>
+	
+Every circuit has a finite self-inductance
+
+<m>\oint E dl = \frac{-d\Phi}{dt} = L \frac{dI}{dT}</m>
+<m>V-L\frac{dI}{dT} = IR</m> - becomes ohm's law when current stops changing
+<m>L \frac{dI}{dt} + IR - V = 0</m> - not Kirshoff's rule!
+Charging: <m>I = I_{max}\left(1 - e^{-\frac{R/L}t}\right)</m>
+	<m>I_{max} = \frac{V}{R}</m>
+Discharging: <m>I = I_{max} e^{-\frac{R}{L}t}</m>
+
+Energy stored in magnetic field
+
+<m>\int\limits_0^\infty I^2 R dt = I_{max}^2 R \int\limits_0^\infty e^{-\frac{2R}{L}t} dt = \frac12 L I_{max}^2</m>
+
+<m>\frac12 LI^2 = \frac{B^2}{2\mu_0} \pi r^2 l</m>
+<m>\frac{B^2}{2\mu_0}</m> = Magnetic field energy density = total energy / volume [J / m^3]
+	work to get a current going in a self-inductor (assuming superconductor)
+
+AC Current
+	<m>V = V_0 cos \omega t</m>
+	<m>I = \frac{V_0}{\sqrt{R^2 + (\omega L)^2}} cos \omega t - \phi</m>
+	<m>tan \phi = \frac{wl}{R}</m>
+	
+Levitation in previous lecture depends on phase shift
+	Phase shift of superconductor is always 0
+	
+

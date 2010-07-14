@@ -1,0 +1,31 @@
+$$course:8.01
+$$lecture:20
+$$type: notes
+$$date: 2009-09-23
+$$source: 8.01 Lecture 20
+$$title: Angular Momentum and Torque
+
+Angular momentum = L
+
+At point r from origin q: <math>\vec{L_q} = \vec{r_q} \times \vec{p} = (\vec{r_q} \times \vec{v}) m</math>
+
+(1) <math>|L_q| = mv r_q sin \theta</math>
+ 
+Relative to center, an object moving in a circle has constant angular momentum
+
+(2) Torque = <math>\tau_Q = \frac{d\vec{L}}{dt} = \vec{r_q} \times \vec{F}</math>  
+Torque is change in angular momentum
+
+No torque in circular motion because F is in opposite direction as r
+
+ <math> L = I_c \omega</math>
+ 
+ When there is rotation around center of mass, angular momentum will be constant no matter which origin point is chosen (called spin angular momentum)
+ 
+ When spinning, and mass is brought inwards, I decreases because radius falls. Therefore, to maintain constant angular momentum, velocity must increase. Demo at 24:45
+ 
+In a closed system, all internal torques cancel out. Total angular momentum will not change unless acted upon by an external torque. (just like force and momentum)
+
+(3) <math>\frac{d\vec{L}_q}{dt} = \tau_{Q_{ext}}</math>
+
+When a star collapes, moment of inertia falls, and angular velocity goes up

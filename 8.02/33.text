@@ -1,0 +1,26 @@
+$$course: 8.02
+$$lecture:33
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 33
+$$title: Interference
+$$use-outline: true
+
+<m>E = amplitude^2</m>
+<m>amplitude \propto \frac{1}{r}</m>
+
+
+Destructive Interference
+	<m>r_2 - r_1 = (2n+1) \frac{\lambda}{2}</m>
+	<m>sin \theta_n = (2n+1) \frac{\lambda}{2d}
+
+Constructive Interference
+	<m>r_2 - r_1 = (n) \lambda</m>
+	<m>sin \theta_n = \frac{n\lambda}{d}
+
+Number of maxima / minima = <m>\frac{2d}{\lambda}</m>
+Lines form hyperbola
+
+
+Young Double-slit experiment
+

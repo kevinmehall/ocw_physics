@@ -1,0 +1,149 @@
+$$type: star
+$$date: 2009-12-10
+$$title: Rolling Motion Lab
+
+<em style='position:absolute; right:10px; top:20px;'>Kevin Mehall</em>
+
+
+### Aim
+
+Determine the factors that affect the acceleration with which an object rolls down a slope
+
+
+### Hypothesis
+
+Objects with mass distributed towards the center will accelerate faster. 
+
+### Background info
+
+Pure Roll is when an object does not skid or slip. For the purposes of this lab,
+the objects will be assumed to be in pure roll. The angle is relatively low,
+so objects are unlikely to skid. 
+
+In pure roll, because the entire circumference of the object touches the slope in 
+one rotation, center of mass has moved <math>2 \pi R</math>. Therefore, <math>v_{cm} = \omega R</math>
+where <math>\omega</math> is the angular velocity. Thus, taking the first derivative
+with respect to time,  <math>a_{cm} = \dot{\omega} R = \alpha R</math> <sup>(1)</sup>.
+
+The normal force of the slope goes through the center of mass, so it does not cause a torque on the object. The only torque
+is caused by the force of friction on the outside of the object. This acts one
+radius away from the center point <math>q</math>, so <math>\tau = RF_{friction}</math><sup>(3)</sup>.
+
+ <math>\tau = I_q \alpha</math> <sup>(3)</sup>. Solving (1) for <math>\alpha</math> and
+substituting into (2) and (3) gives <math>\tau = RF_{friction} = \frac{I_q a}{R}</math> <sup>(4)</sup>.
+
+Neglecting the rolling motion, the object would experience force 
+ <math>F = Ma = Mg \sin \theta - F_{friction}</math> <sup>(5)</sup>.
+
+Solve (4) for <math>F_{friction}</math> and substitute into (5):  
+ <math>Ma = Mg \sin \theta - \frac{I_q a}{R^2}</math>
+
+Solving for <math>a</math> yields:
+ <math>a = \frac {MR^2 g \sin \theta}{MR^2 + I_q}</math>
+
+The moment of inertia <math>I_q</math> depends on the shape of the object:
+
+  * Hollow Cylinder: <math>I_q = MR^2</math>
+  * Solid Cylinder: <math>I_q = \frac12 MR^2</math>
+  * Solid Sphere: <math>I_q = \frac25 MR^2</math>
+  * Hollow Sphere: <math>I_q = \frac23 MR^2</math>
+  
+Note that for each of these shapes, <math>\frac{I_q}{MR^2}</math> is a constant.
+
+Thus <math>a = \frac {MR^2 g \sin \theta}{MR^2 + kMR^2}</math>  
+ <math> = \frac {MR^2 g \sin \theta}{(1+k)MR^2}</math>  
+ <math> = \frac {g \sin \theta}{(1+k)}</math>
+ 
+The acceleration does not depend on the mass or radius of the object, only on the slope,
+gravitational acceleration, and mass distribution.
+
+### Variables
+ 
+ * **Acceleration**  - dependent variable  
+     (measured by time to go 1m and <math>d = \frac12 a t^2 \rightarrow a = \frac{2d}{t^2})</math>
+     
+ * **Mass / Weight Distribution / Radius / Moment of Inertia** -  
+     independent variable - different for the various objects tested
+     
+ * **Slope** - held constant at 6.6&deg;
+ 
+ * **Gravitational acceleration** - constant
+ 
+### Procedure
+
+1. Set up a slope and measure its angle
+2. Mark a 1 meter distance on the slope
+3. Place an object on the upper line, and time its roll to the lower line
+4. Repeat step 3 several times and average the results
+5. Repeat steps 3 and 4 for each object to be tested
+
+I timed the objects' roll by recording video of the track, and using the frame numbers of when
+I let go to when the object crossed the second line to determine the time. This method turned out
+to be extremely precise, with most tests varying only one frame or two from other trials of the same object, for 
+an error of 0.06 seconds.
+
+### Data
+
+<iframe src='http://spreadsheets.google.com/pub?key=tmC37jEv_00voYVXlBgD0OQ&single=true&gid=1&output=html' style='width:100%; height:360px; border:none;overflow:hidden;'></iframe>
+
+<a href='http://spreadsheets.google.com/pub?key=tmC37jEv_00voYVXlBgD0OQ&single=true&gid=0&output=html'>View raw data</a>
+
+
+<p style='margin: 40px auto 5px auto;'><img src='/physics/img/roll_graph_2.png' /></p>
+
+This graph shows that there is no significant relationship between radius and
+rolling acceleration.
+
+  
+  
+
+<p style='margin: 40px auto 5px auto;'><img src='/physics/img/roll_graph_1.png' /></p>
+
+This graph shows that acceleration is similar for objects with similar shapes,
+and that for the most part, it follows the predicted values.
+
+
+### Conclusion
+
+This experiment supports the hypothesis that the acceleration of an object
+rolling down a slope depends on the distribution of mass as measured by 
+<math>\frac{I}{MR^2}</math>. The objects of the same shape have similar
+acceleration. Objects with the mass distributed more centrally around the axis
+of rotation accelerate faster, while those with the mass away from the center
+accelerate more slowly.
+
+This was especially evident for the cylinders, both hollow and solid. They had
+all data points match the predicted acceleration well within the uncertainty.
+
+The spherical objects matched the predicted values less closely. All of the solid
+balls accelerated more quickly than predicted. For the marbles and metal balls,
+they may have slid, meaning they were not in pure roll and went faster. These objects
+have a low coefficient of friction, so they may tend to slide a little. The solid rubber ball
+had a slight bounce component to its motion, which may have increased its acceleration
+by reducing contact with the slope. For the hollow balls, one source of error may
+be that the moment of inertia may not match the predicted values. The equation above for
+moment of inertia for a hollow sphere assumes that the entire mass is at the outside of the ball.
+Physical hollow spheres have thickness, meaning that the mass is more towards the center
+and they accelerate faster. The balls used in this experiment have significant thickness
+which may have caused the observed acceleration. This also applies to the hollow
+cylinders, but they were thinner and lighter, and this effect was not significant.
+
+The experiment also does not take into account rolling friction. In most cases, this
+should be negligible, but in some (tennis ball), it may be significant.
+
+Overall, the methods used in this lab were successful. Timing the trials using
+video recording yielded extremely precise results, with trials varying only
+one or two frames, and often not varying at all.
+
+One extension would be to repeat the tests at multiple angles, both to verify
+the equation for a different <math>\theta</math> and because a lower angle might
+reduce the sliding seen with the marbles.
+
+
+
+
+
+
+  
+
+

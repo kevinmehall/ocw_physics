@@ -1,0 +1,36 @@
+$$course: 8.02
+$$lecture:18
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 18
+$$title: Displacement Current
+$$use-outline: true
+
+Displacement Current
+	Consider a capacitor:
+	<m>E = \frac{\sigma_{free}}{\kappa \epsilon_0} = \frac{Q_{free}}{\pi R^2 \kappa \epsilon_0}</m>
+	<m>I = \frac{dQ_{free}}{dt}</m>
+	<m>\frac{dE}{dt} = \frac{I}{\pi R^2 \kappa \epsilon_0}</m>
+	In wire outside of capacitor
+		<m>B = \frac{\mu_0I}{2\pi r}</m>
+	But inside of capacitor, or using surface that passes between capacitor plates
+		Current = 0 so magnetic field = 0 ?!?!
+	-> Ampere's law inadequate
+	In between capacitor plates, there is changing magnetic field
+	magnetic flux = <m>\Phi_E = \int{E . dA}</m>
+	Amended Ampere's law: <m>\oint B dl = \mu_0 \left( I + \epsilon_0 \kappa \frac{d}{dt} \int  E. dA \right)</m>
+	Added <m>\mu_0 \epsilon_0 \kappa \Phi_E</m> term is called displacement current
+		in the presence of dielectric (in capacitor), changing electric field will cause a current inside
+		but in the vacuum, there is none
+			Maxwell thought a vacuum is a very special dielectric with <m>\kappa = 1</m>, but isn't technically true
+	Displacement current predicts radio waves
+	
+
+
+Multi-phase power
+	If multiple coils spin in B field at different angles, the AC current will be offset
+	If 3-phase power drives 3 coils offset by 120&deg; (x 2 sides) the magnetic field inside will turn with the same frequency as the AC current
+		magnet inside will follow - synchronous motor
+		induction motor
+			conducting object inside will have eddy current that causes torque
+

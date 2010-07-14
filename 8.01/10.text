@@ -1,0 +1,35 @@
+$$course:8.01
+$$lecture:10
+$$type: notes
+$$date: 2009-09-03
+$$source: 8.01 Lecture 10
+$$title: Simple Harmonic Motion
+
+### Springs
+
+(1) <math>T = 2\pi \sqrt{\frac{m}{k}}</math>
+
+(2) <math>x = A \cos{\omega t + \varphi}</math> where  
+ <math>A</math> = amplitude  
+ <math>\omega=</math> angular frequency (rad/s)
+ 
+Period = <math>T = \frac{2\pi}{\omega}</math>
+
+
+(3) <math>-\omega^2 x + \frac{k}{m}x=0</math> 
+- differential equation, must be true for any x, so <math> \omega^2 = \frac{k}{m}</math>
+
+ <math>\dot{x} = -A \omega \sin{\omega t + \varphi}</math>
+
+ accel = <math>a = \ddot{x} = -A \omega^2 \cos{\omega t + \varphi} = -\omega^2 x</math>
+
+
+
+(4) <math> \omega = \sqrt{\frac{k}{m}}</math>
+
+
+### Pendulum
+
+ <math>T = 2\pi \sqrt{\frac{l}{g}}</math>
+
+Spring dependent on mass, pendulum not dependent on mass - spring provides fixed force proportional to distance, while pendulum is dependant on gravity, which is proportional to mass. Spring oscillations are used to weigh things in space.

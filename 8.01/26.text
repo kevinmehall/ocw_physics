@@ -1,0 +1,48 @@
+$$course:8.01
+$$lecture:26
+$$type: notes
+$$date: 2009-10-15
+$$source: 8.01 Lecture 26
+$$title: Elasticity
+
+ <math> F \propto \Delta l</math> (hooke's law)
+ 
+ 
+2 springs with same <math>k</math> in series: double extension at same force  
+in parallel: half the extension for same force
+
+
+Same laws apply for solid rods
+
+  * <math>\Delta l \propto \frac{Fl}{a}</math>
+  
+  * <math>\frac{F}{A} = Y \frac{\Delta l}{l}</math> where:
+  
+    * <math>\frac{F}{A}</math> = stress (same units as pressure)
+    
+    * <math>\frac{\Delta l}{l}</math> = strain (dimensionless)
+    
+    * Y = young's modulus
+    
+        * Higher value of Y -> difficult to make it longer
+        
+**Breaking point** - maximum tensile strength (stress)
+
+**Elastic limit** - Point where material deforms and Hooke's law no longer holds - will not return
+to original length when force is removed 
+
+<strong>Graph of <math>\frac{F}{A}</math> (stress) vs <math>\frac{\Delta l}{l}</math> (strain):</strong>
+ <img src='/physics/img/lec26.png' alt='graph' />
+ 
+  *  Work beyond elastic limit goes into heat
+  *  Horizontal component - plastic flow - continues to stretch with no additional force
+  *  Then rod pinches and stress falls
+ 
+**Apparatus to measure &Delta;l** - A mirror allowed to pivot around bottom point is linked to wire. When the wire
+stretches, the mirror will tilt. Tilt is measured with laser bounced off mirror.
+
+ <math> F = \frac{-yA \Delta l}{l}</math>
+ 
+ (<math>\frac{yA}{l}</math> is like k)
+ 
+ Speed of sound depends on Young's modulus - <math>v_s = \sqrt{\frac{y}{density}}</math> - because higher Young's modulus means material is stiffer so vibrations travel faster

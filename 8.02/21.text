@@ -1,0 +1,45 @@
+$$course: 8.02
+$$lecture:21
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 21
+$$title: Magnetic materials
+$$use-outline: true
+
+external magnetic field can induce magnetic dipoles at atomic level
+	or can rotate
+	easier at lower temperature
+	
+magnetic dipole moment <m>\mu = nIA</m>
+
+<m>B = \kappa_m B_{vacuum}</m>
+<m>\kappa_m = 1+x_m</m> - slightly change from vacuum field
+
+*diamagnetism
+	dipole moment is induced to oppose magnetic field
+	internal field is smaller than external
+	repelled from field
+	<m>\kappa_m < 1, x_m < 0<m>
+		water x_m = -10^-5
+	
+	
+*paramagnetism
+	randomized magnetic dipoles align with magnetic field
+	dipoles can be modelled as flowing current - lorenz force component towards magnet
+	or simply N/S / S/N
+	causes material to be attracted to magnet
+	returns to chaos when field is removed
+	normally weaker than weight
+		exception is liquid oxygen
+	<m>\kappa_m > 1</m>
+		
+	
+*ferromagentism
+	dipoles in material
+	domains where dipoles are aligned
+	some domains may remain oriented when field is removed
+	forces may be stronger than weight
+	pulled towards stronger field
+	<m>\kappa_m</m> 10^2 -> 10^5
+	Curie temperature where domains cease to exist -> paramagnetic
+

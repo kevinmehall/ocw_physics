@@ -1,0 +1,51 @@
+$$course: 8.02
+$$lecture:28
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 28
+$$title: Electromagnetic wave energy
+$$use-outline: true
+
+*Energy density
+	electric: <m>U_E = \frac12 \epsilon_0 E^2</m>
+	magnetic: <m>U_B = \frac1{2\mu_0} B^2</m>
+	[J m^-3]
+	
+	Energy density in the magnetic field of a travelling wave is the same as the energy density of the electric field
+	
+	<m>U_total = \epsilon_0 E^2 = \epsilon_0 E B c</m>
+	
+	Energy flux
+		<m>U_tot c = \epsilon_0 E B c^2 = \frac{EB}{\mu_0}</m> [J m-^2 sec]
+		
+		Poynting vector
+			<m>\vec{S} = \frac{E \times B}{\mu_0}</m>
+			E and B are always perpendicular, so cross product is unnecessary, but predicts direction of wave's travel (direction of S)
+			
+			Time average <m>\bar{S} = \frac12 \frac{E_0 B_0}{\mu_0}	= \frac12 \frac{E_0^2}{\mu_0 c}</m>
+			
+*Producing EM Waves
+	Accelerating charge
+	The change in electric field can not propagate faster than the speed of light, so the change ripples out as a wave
+	Maximum wave goes in directions perpendicular to charge motion
+	
+Momentum of photon <m>p = \frac{energy of one photon}{c}</m>
+
+<m>\frac{S}{c} = \frac{energy}{c m^2 sec}</m> is radiation pressure
+<m>\frac{\bar{S}}{c} \alpha = Pressure</m>
+	<m>\alpha = 1</m> Full absorption
+	<m>\alpha = 0</m> Fully transparent
+	<m>\alpha = 2</m> Full reflection
+	Solar sails
+	Second comet tail due to radiation pressure
+		blue is solar wind
+		white-yellow is radiation pressure
+
+A charge <m>q</m> oscillates with acceleration <m>\vec{a}</m>. The electric charge <m>\vec{E}</m> measured at a point <m>P</m>, a distance <m>\vec{r}</m> and angle <m>\theta</m> away from the direction of oscillation
+	<m>\vec{E} \perp \vec{r}</m>
+	<m>\vec{a}, \vec{r}, \vec{E}</m> are in the same plane
+	<m>E \propto  q \frac{a}{r} sin(\theta)</m>
+	<m>S \propto q^2 \frac{a^2}{r^2} sin^2 (\theta)</m>
+
+Polarization
+

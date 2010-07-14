@@ -1,0 +1,31 @@
+$$course: 8.02
+$$lecture:13
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 13
+$$title: Moving Charges in Magnetic Fields
+$$use-outline: true
+
+<m>qvB = \frac{mv^2}{R}; R = \frac{mv}{qB} = \sqrt{\frac{2mV}{qB^2}}</m>
+
+Mass Spectrometer
+	Heat to ionize
+	accelerate over potential difference in magnetic field
+	radius is different due to different mass
+	separating U-238 and U-235
+
+Cyclotron
+	2 D-shaped halves of ring, with magnetic field in perpendicular axis. Potential difference between halves is switched to increase proton's energy slightly with each rotation
+	Time is independent of velocity = <m>\frac{2 \pi m}{qB}</m> - assuming no relativistic effects
+	Synchrotron - changes switching frequency to compensate for relativistic effects
+
+Modern accelerators are constant-diameter ring, so magnetic field must be increased as velocity increases to keep particle in ring
+
+Cloud chamber
+	Supercooled alcohol vapor condenses when hit by ion
+	Spirals inward as velocity decreases and radius decreases
+	
+	Bubble chamber
+		Liquid hydrogen, vaporizes when hit
+		Higher density
+

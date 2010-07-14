@@ -1,0 +1,9 @@
+$$title: Time Tracking
+$$type: page
+$$use-cheetah: true
+$$use-markdown: false
+
+
+#for $p in $pages().where(type='time').sortby('date_h').reverse()
+$p.tpl_type(mode='teaser')
+#end for

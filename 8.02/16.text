@@ -1,0 +1,22 @@
+$$course: 8.02
+$$lecture:16
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 16
+$$title: Electromagnetic Induction; Faraday's Law
+$$use-outline: true
+
+Changing magnetic field causes current
+	in direction that creates a magnetic field opposing change
+	Lenz's law
+		<m>\mathcal{E} = - \frac{d\Phi_b}{dt} = \int \vec{B}. \vec{dA} dt = \oint \vec{E}. \vec{dl}</m>
+	Faraday's Law
+		<m>\oint \vec{E}.\vec{dl} = - \frac{d}{dt}\int \vec{B}.\vec{dA}</m>
+
+In the presence of a changing magnetic flux, Kirshoff's law no longer holds
+	the electric field is non-conservative
+		it depends on the path
+	Kirchoff's law is a special case of Faraday's when there is no change in magnetic flux
+	
+	2 voltmeters can be connected to the same place in the circuit and read different values
+

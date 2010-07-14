@@ -1,0 +1,53 @@
+$$course: 8.02
+$$lecture:3
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 3
+$$title: Electric Flux
+$$use-outline: true
+
+<m>d\Phi = \vec{E} \cdot \hat{n} dA = \vec{e} dA cos \theta</m>
+
+##### Closed Surface
+
+*Sphere:
+	<m>\Phi = 4 \pi R^2 E = \frac{Q}{\epsilon_0}</m>
+
+*Gauss's Law:
+	<m>\Phi = \oint \vec{E}. \vec{dA} = \frac{\sum Q_{inside}}{\epsilon_0}</m>
+
+*Sphere of radius R with charge Q uniformly distributed at surface:
+	*Symmetry Argument 1:
+		all points at a given radius <m>r</m> must have equal field
+	*Symmetry Argument 2:
+		field must point radially outward or inward, so angle is 0 or 180
+
+
+	*At points <m>r\lt R</m>:
+		<m>4 \pi R^2 E = \frac{Q_{inside}}{\epsilon_0}</m>
+		<m>Q_{inside}</m> is 0, so <m>E=0</m>
+			no electric field inside charged sphere
+	*At points <m>r>R</m>:
+		<m>4 \pi R^2 E = \frac{Q_{inside}}{\epsilon_0}</m>
+		<m>Q_{inside} = Q</m>, so <m>E = \frac{Q}{4\pi r^2 \epsilon_0}</m>
+			from the outside, a charged sphere acts the same as if all charge were at center
+
+*Flat Horizontal Plane of infinite size:
+	*Charge density
+		<m>= \sigma = \frac{Q}{A}</m> (<m>\frac{C}{m^2}</m>)
+	Find electric field at point height d
+	*Use for Gauss surface:
+		Cylinder with top and bottom parallel to plane, with top surface distance d above plane and bottom surface d below plane
+		No flux goes through sides of cylinder
+		
+	<m>E = \frac{\sigma}{2 \epsilon_0}</m>
+		Electric field does not fall off with distance
+		
+*Two oppositely charged planes separated by distance <m>d</m>
+	Top plate has charge <m>+\sigma</m>, bottom <m>-\sigma</m>
+	Field above and below are 0, inside <m>E = \frac{\sigma}{\epsilon_0}</m>
+	
+		
+
+
+

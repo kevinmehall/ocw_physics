@@ -1,0 +1,36 @@
+$$course:8.01
+$$lecture:14
+$$type: notes
+$$date: 2009-09-15
+$$source: 8.01 Lecture 14
+$$title: Circular Orbits, Power
+
+(1) <math> E = \frac{1}{2}mv^2 - \frac{mMG}{r} </math> total kinetic + potential energy (with PE negative; 0 at infinity)  
+
+(2) <math>v_{esc} = \sqrt{\frac{2M_e G}{R}}</math>
+ 
+ = 11.2 km/s on Earth
+ 
+ Orbit unbound when E >= 0 ; bound when E < 0
+
+(3) <math>v_{orbit} = \sqrt{\frac{M_e G}{R}}</math>
+ 
+(4) <math> T = \frac{ 2\pi R^{\frac{3}{2}} }{\sqrt{G M_e}}</math>
+ 
+escape velocity is <math>\sqrt{2}</math> times larger than orbital
+ 
+(5) Substitute (3) into (1): <math>\frac{1}{2} m \frac{MG}{r} - \frac{mMG}{r} = \frac{1}{2} u = -KE </math>
+
+### Power
+
+  <math>P = \frac{dW}{dt}</math>
+  
+  "We also know power in terms of political power. That's very different:  Political power, you can do no work at all in a lot of time, and you have a lot of power. Here in physics, life is not that easy."
+  
+  <math> dW = F \dot ds </math> (s = displacement) </math>
+  
+  <math> P = F \dot v </math>  
+  Dot product, so P is 0 if F and V are perpendicular
+  
+  Electicity consumption per capita (US) = equivalent power output of 100 people
+

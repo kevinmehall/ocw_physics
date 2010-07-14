@@ -1,0 +1,39 @@
+$$course:8.01
+$$lecture:27
+$$type: notes
+$$date: 2009-10-20
+$$source: 8.01 Lecture 27
+$$title: Fluid Mechanics
+
+ <math>P = \frac{F}{A}</math>
+ 
+**Pascal's Principle** - in absence of gravity, pressure applied to an enclosed fluid is transmitted undiminished to every point in the fluid and to the walls of the container
+
+Causes force perpendicular to container
+
+Hydraulic Jack - <math>\frac{F_1}{A_1}=\frac{F_2}{A_2}</math> and <math>A_1 d_1 = A_2 d_2</math>
+
+#### Hydrostatic pressure 
+
+Pressure increase at depth due to gravity
+
+Evaluating a chunk of ocean with height y, surface area A, density &rho;
+
+ <math>F_1 - F_2 - \Delta m g = 0</math> to balance y forces  
+ <math>P_yA - P_{y+\Delta y}a - A \Delta y \rho g = 0</math>
+ <math>\lim\limits_{\Delta y \rightarrow 0} \frac{P_{y+\Delta y} - P_y}{\Delta y} = - \rho g = \frac {dP}{dy}</math>
+ 
+ <math>\int_{P_1}^{P_2} dP = -\rho g \int_{y_1}^{y_2}</math>  
+ <math>P_2 - P_1 = - \rho g (y_2 - y_1)</math>  
+ <math>P_1 - P_2 =  \rho g (y_2 - y_1)</math> (Pascal's law)
+ 
+ 
+#### Barometric Pressure
+
+ Same is true for gases, but more complicated since density changes  
+ 10^5 Pa = 1 atm
+ 
+ Barometer - Column of liquid coming from larger container exposed to atmosphere. Liquid will only go up so far - <math>P = \rho g h</math>  
+ 760mm for mercury, ~10m for water at 1atm
+ 
+ 

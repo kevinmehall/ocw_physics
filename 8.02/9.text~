@@ -1,0 +1,32 @@
+$$course: 8.02
+$$lecture:9
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 9
+$$title: Currents, Resistance
+$$use-outline: true
+
+
+drift velocity = <m>v_d = \frac{eE}{m_e} \tau</m>
+	<m>\tau</m> = time between collisions (due to thermal motion)
+	<m>n = number of free electrons per cubic meters</m>
+	
+	about .5 cm/hr in copper at 10V
+	
+<m>I = v_d A n e = \frac{e^2 n \tau}{m_e} A E</m>
+
+Conductivity = <m>\sigma = \frac{e^2 n \tau}{m_e}</m>
+	<m>\sigma_{Cu} \approx 10^8</m>
+	<m>\sigma_{glass} \approx 10^-12</m>
+	strong function of temperature -> hotter = higher resistance
+	
+<m>V = \frac{l}{\sigma A}I</m>
+Resistivity = <m>\rho = \frac1{\sigma}</m>
+Resistance = <m>R = \frac{l}{\sigma A} = l \rho</m>
+<m>V = IR</m>
+
+Ohm's law doesn't hold when current causes temperature change (thus changing resistance)
+
+Adding ions to air or water increases its conductivity
+
+Shoes have a resistance of about 4 billion ohms, but is still too high to prevent discharge of static electricity (high voltage, low charge). 

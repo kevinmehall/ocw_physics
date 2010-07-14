@@ -1,0 +1,89 @@
+$$course:8.01
+$$lecture:21
+$$type: notes
+$$date: 2009-10-01
+$$source: 8.01 Lecture 21
+$$title: Angular Momentum and Torque
+
+ <math>\alpha = \ddot{\theta}; \quad \omega = \dot{\theta}</math>
+
+#### Rotation about Q
+(4)  <math>|\tau_Q| = I_Q \alpha_Q</math>
+
+(5) <math>|L_q| = I_Q \omega_Q</math>
+
+#### Rotation about any stationary axis through center of mass
+(6) <math>|L_{cm}| = I_{cm} \omega_{cm}</math>
+
+
+
+#### Circular motion (example: planets)
+Use eq 1 or 5:  
+ <math>|L_c| =  r_c m v = m r_c^2 \omega = m R^2 \omega</math>
+
+Torque relative to center is 0
+
+
+#### Rod rotating around off-center point p
+ 
+ <math>|L_p| = I_p \omega = \frac1{12} M l^2  + Md^2 \omega</math>
+
+Force on point P, but 0 torque relative to (only) point p
+
+#### Rod rotating around center point p
+
+No net force at all, so no torque
+
+Spin angular momentum, all torque equal relative to anywhere
+
+ <math> |L_c| = I_c \omega = \frac{1}{12} M l^2 \omega </math>
+ 
+#### Rod hit with off-center impulse on frictionless surface (Problem 7.9)
+<em> at 15:00</em>
+ 
+Will rotate about center of mass, because F=ma has to apply for center of mass, and spin around anywhere else would make the center of mass go in loops
+
+ <math> I = F \Delta t = Ma_{cm} \Delta t ; a_{cm} \Delta t = v_{cm}</math>  
+ <math> V_{cm} = \frac{I}{M}</math>  
+ (normal physics holds for center of mass)
+
+Choose center or point of impact as origin, and either will work
+ 
+ 
+#### Oscillation of solid pendulum
+Length = l; Hanging by point <em>P</em> a distance <em>b</em> away from center <em>C</em>
+
+Use P as reference point so torque is 0
+
+ <math>|{\tau_p}_t| = Mg b \sin \theta_t = \vec{r} \times \vec{F} = - I_p \alpha_t</math>
+
+ Small angle approximation: <math>sin \theta = \theta</math>
+ 
+ <math>Mgb\theta + I_p \ddot{\theta} = 0</math>
+ 
+ <math>\ddot{\theta} + \left(\frac{Mgb}{I_p}\right)\theta = 0</math>  -> SHO!
+
+ <math>\omega_t = \omega_{max} \cos(\omega t + y)</math> this omega is angular frequency, not velocity!
+ 
+ <math>\omega = \sqrt{\frac{mgb}{I_p}}</math>
+ 
+ <math>T = 2\pi \sqrt{\frac{I_p}{mgb}} </math>  
+ Still independent of mass because I includes a mass
+ 
+ <math>I_p = \frac1{12} M l^2 + Mb^2 </math>
+ 
+ <math>T = 2\pi \sqrt{\frac{\frac{1}{12} l^2 + b^2}{gb}}</math>
+
+#### Oscillation of a hoop
+
+Point P on hoop; radius R
+
+ <math>|\tau_p| = MgR \sin\theta = -I_p \ddot{\theta}</math>
+ 
+ All mass at radius R, so <math>I_{cm} = MR^2</math>  
+ <math>I_p = I_{cm} + MR^2 = 2MR^2</math>
+ 
+ <math>\ddot{\theta} + \frac{MgR}{I_p} \theta = 0</math>
+ 
+ <math>T = 2\pi \sqrt{\frac{2MR^2}{MgR}} = 2\pi \sqrt{\frac{2R}{g}}</math>  
+ Same as pendulum with all mass at end!

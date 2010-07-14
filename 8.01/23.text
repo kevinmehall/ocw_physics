@@ -1,0 +1,52 @@
+$$course:8.01
+$$lecture:23
+$$type: notes
+$$date: 2009-10-8
+$$source: 8.01 Lecture 23
+$$title: Doppler Effect and Astronomy
+
+Sinusoidal frequency/time graph when sound source moves in a circle
+
+ <math>\frac{f_{max}}{f} = v_{transmitter}</math>
+ 
+ Period can be determined by timing on peak to the next
+ 
+ And solve for radius in <math>\frac{2\pi R}{T} = v_{tr}</math>
+ 
+ With light, whether source or receiver is moving doesn't matter
+ 
+ <math>f' = f\left(1+\frac{v}{c} cos \theta \right)</math>
+ 
+ if <math> \theta &lt; 90^\circ \quad f' > f </math> (towards you)  
+ if <math> \theta &gt; 90^\circ \quad f' < f </math> (away)
+ 
+ <math>\lambda = cT = \frac{c}{f}</math>
+ 
+ <math>\lambda' = \lambda \left(1-\frac{v}{c} cos \theta \right)</math>
+ 
+ Absorption lines at precise frequencies, shifted by doppler effect
+ 
+ Can determine velocity, period, radius for binary stars
+ 
+ Use Kepler's law, and masses of both stars can be found
+ 
+#### X-ray binaries
+
+Binary system including neutron star - If inner lagrangian point (where gravity is balanced) is inside surface of big star, matter will fall towards neutron star, forming accretion disk
+
+Speed at which matter hits neutron star from (close enough to) infinity is same as escape velocity
+
+10g object => more kinetic energy than atomic bomb, falling at 0.8c
+
+From high temperature, neutron star emits X rays
+
+Magnetized, and gas is plasma, so it can ony fall at poles -> X ray hotspots at poles -> if it's spinning, we see pulses
+
+#### Black Holes
+
+because escape velocity at event horizon is speed of light,<math>R = \frac{2MG}{c^2}</math>
+
+Doppler shift can't be observed directly, but mass can be found if you can estimate the mass of partner
+
+Cygnus X-1 - first discovered black hole X ray binary
+

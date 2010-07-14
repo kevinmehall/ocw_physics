@@ -1,0 +1,26 @@
+$$course:8.01
+$$lecture:15
+$$type: notes
+$$date: 2009-09-16
+$$source: 8.01 Lecture 15
+$$title: Momentum
+
+ <math> p = mv</math> (kg m / s)
+ 
+ <math> F = ma = m \frac{dv}{dt} = \frac{d (mv)}{dt} = \frac{dp}{dt}</math>  
+ -> if a particle changes its momentum, a force must have acted on it (and vice versa)
+ 
+ Conservation of momentum demo at ~ 30:00
+ 
+### Center of Mass
+ 
+ Break an object into <math>i</math> small pieces with mass <math>m_i</math>:  
+ <math> M_{tot} \vec r_{cm} = \sum  m_i \vec r_i </math>  
+ <math> \vec v_{cm} = \frac{1}{M_{tot}} \sum m_i \vec v_t = \frac{1}{M_{tot}} \vec P_{tot}</math>
+ 
+ <math>\vec P_{tot} = M_{tot} \vec v_{cm}</math>  
+ <math>\frac{dP_{total}}{dt} = F_{{tot}_{ext}} = M_{tot} \vec a_{cm}</math> 
+ 
+ Same as F=ma : proves that an object can be treated as a point mass at its center of mass. Center of mass follows smooth motion, even if the object tumbles.
+ 
+ Demo at ~48:00

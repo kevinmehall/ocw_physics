@@ -1,0 +1,44 @@
+$$course:8.01
+$$lecture:28
+$$type: notes
+$$date: 2009-10-20
+$$source: 8.01 Lecture 28
+$$title: Hydrostatics
+
+#### Buoyancy
+
+Buoyant force = <math>F_b = A\rho_{fluid} g h</math> - same as weight of fluid displaced
+
+**Archimedes Principle** - The buoyant force of an immersed body has the same magnitude as the weight of the fluid which is displaced by the body
+
+Archimedes determined a crown was gold by weighing it in air (<math>W_1 = V \rho g</math>) and underwater (<math>V \rho g  - V \rho_{water} g</math>)  
+ <math>\frac{W_1}{W_1-W_2} = \frac{\rho}{\rho_{water}}</math>
+ 
+ 92% volume of iceberg is underwater because <math>Mg = V_{iceberg} \rho_{ice} g = V_{underwater} \rho{water} g</math>  
+ <math>\frac{V_{underwater}}{V_{iceberg}} = \frac{\rho_{ice}}{\rho_{water}} = 0.92</math>
+ 
+ Floating - <math>\rho_{water} > \rho_{object}</math>
+ 
+ Helium balloon will still rise relative to perceived gravity caused by acceleration
+ 
+#### Bernoulli's Equation
+
+Pressure is energy per unit volume and <math>\rho g h</math> is potential energy per volume
+
+  <math>\frac12 \rho v^2 + \rho g y + P_y = C </math>
+
+##### Liquid travelling through an expanding pipe
+ <math> A_1 v_1 = A_2 v_2 </math> since quantity of water is conserved  
+ <math>\frac12 \rho v_1^2 + P_1 = \frac12 \rho v_2^2 + P_2</math>  
+ therefore <math>P_1 \lt P_2</math>
+ 
+ 
+##### Siphon
+ Pressure = 1 atm on both sides of pipe
+ 
+ <math>v_2 = 0 </math> because it's such a small amount of water compared to area of top
+ 
+ <math>\frac12 \rho_{liquid} v_1^2 + \rho g y_1 = \rho g y_2</math>  
+ <math>v_1 = \sqrt{2gh}</math> (same if a solid were dropped from that height)
+ 
+

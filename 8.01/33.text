@@ -1,0 +1,21 @@
+$$course:8.01
+$$lecture:33
+$$type: notes
+$$date: 2009-11-17
+$$source: 8.01 Lecture 33
+$$title: Kinetic Gas Theory
+ 
+ <math>PV = nRT</math>  
+ <math>R= 8.3 J/K</math>
+
+1 mol = about 24 liters
+
+ <math>PV = NkT</math>  
+ <math>k = \frac{R}{avogadro}</math>
+
+Assuming temperature is constant (isothermal atmosphere)
+ <math> P_h = P_o e^{\frac{-h}{H_o}}</math>  
+ <math>H_0 = 8km</math>
+
+
+

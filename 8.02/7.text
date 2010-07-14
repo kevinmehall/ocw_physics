@@ -1,0 +1,31 @@
+$$course: 8.02
+$$lecture:7
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 7
+$$title: Capacitance
+$$use-outline: true
+
+Example
+	Top plate <m>+Q = + \sigma A</m>
+	Bottom Plate <m>-Q = -\sigma A</m>
+	<m>E = \frac{\sigma}{\epsilon_0}</m>
+	To move top plate from <m>h</m> to <m>h+x</m>, electric field is created, so work must be done.
+		<m>F = \frac12 Q E</m> because charge layer is halfway between field between plates and 0 field inside metal
+		<m>W = \frac12 Q E x = \frac12 \epsilon_0 E^2  Ax</m>
+		<m>\frac{W}{Volume} = \frac12 \epsilon_0 E^2</m> [ J / m^3 ]
+			Field energy density
+
+Potential Energy = <m>U = \int \frac12 \epsilon_0 E^2 dVolume</m>
+
+Capacitance = <m>Q / V</m> [ Farad ] = charge / potential difference
+
+Planes
+	<m>C = \frac{Q}{V} = \frac{\sigma A}{Ed} = \frac{E \epsilon_0}{d}</m>
+		smaller distance -> higher capacitance
+
+<m>U = \frac12 C V^2 </m>
+
+The work done by moving charges plates apart (against electric field) goes into increasing the potential difference between them, since charge must remain constant
+
+

@@ -1,0 +1,56 @@
+$$course:8.01
+$$lecture:24
+$$type: notes
+$$date: 2009-10-8
+$$source: 8.01 Lecture 24
+$$title: Rolling Motion and Gyroscopes
+
+Object rolling down hill at angle &beta; with friction
+
+#### Pure Roll 
+
+* object not skidding or slipping 
+* after one rotation, center of mass has moved <math>2 \pi R</math>
+* <math>v_q = v_{circ} = \omega R</math>
+  
+  
+normal force = <math>Mgcos\beta</math>
+
+ <math>a_{cm} = \dot{\omega} R = \alpha R</math>
+ 
+ N and mg go through center -> no effect on torque
+ 
+ <math>|\tau_{center}| = RF_{friction} = I_q \alpha =  \frac{I_q a}{R}</math> (1)
+ 
+ <math>Ma = Mg \sin \beta - F_{friction}</math> (2)
+ 
+ <math>Ma = Mg \sin \beta - \frac{I_q a}{R^2}</math>
+ 
+ <math>a = \frac {MR^2 g \sin \beta}{MR^2 + I_q}</math>
+ 
+ **Solid cylinder** -> <math> I_q = \frac12 MR^2</math>
+ 
+ <math> a = \frac23 g \sin \beta </math>
+ 
+ **Hollow Cylinder** -> <math>I_q = MR^2</math>
+ 
+ <math> a = \frac12 g \sin \beta</math>
+ 
+ Does not depend on mass
+ 
+ Solid cylinder accelerates faster than hollow
+ 
+### Gyroscopes
+
+Spin angular momentum will always move in the direction of torque applied
+
+Precession
+ 
+ Angular momentum chases the torque
+ 
+ <math>\omega_{precession} = \frac{\tau}{L_{spin}} = \frac{rMg}{I_q \omega_s}</math>  
+ only applies when angular momentum in wheel is much greater than angular momentum caused by precession around string axis
+ 
+ Increasing weight on the end will increase precession frequency
+ 
+ If you mount a gyroscope in a way that prevents any torque from being applied, spin angular momentum will always stay in the same direction

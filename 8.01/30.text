@@ -1,0 +1,78 @@
+$$course:8.01
+$$lecture:30
+$$type: notes
+$$date: 2009-11-1
+$$source: 8.01 Lecture 30
+$$title: Simple Harmonic Motion
+
+### Solid pendulum
+
+ <math>\tau = I \alpha = - (r \times F)</math>  
+ 
+ <math>\theta = \theta_{max} \cos(\omega r + \phi)</math> [&omega; is ang. frequency, not velocity]
+ 
+ length of rod = b
+ 
+ <math>\omega =\sqrt{\frac{bMg}{I_p}}</math>
+ 
+ <math>T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{I_p}{bMg}}</math>  
+ independent of mass because there will be a mass in I
+ 
+#### Rod
+
+of mass M, length L
+
+use parallel axis theorem to find I relative to pivot point
+
+ <math> T = 2 \pi \sqrt{\frac{\frac23L}{g}}</math>
+
+#### Traditional Pendulum
+
+ <math>T = 2 \pi \sqrt{\frac{L}{g}}</math>  
+(same result as before, but now we can do it in terms of torque)
+
+#### Ring
+
+ <math>T = 2 \pi \sqrt{\frac{2R}{g}}</math>  
+ (derived in lec 21)
+ 
+#### Disk
+ <math>T = 2 \pi \sqrt{\frac{\frac32 R}{g}}</math>  
+
+
+### Liquid pendulum
+
+Tube bent into U shape
+
+Mass M  
+density &rho;  
+Area A  
+Length of liquid (along tube) l  
+Height of liquid on right side = y  
+y = u at equilibrium
+
+M = A l &rho;
+
+Velocity always same because A is constant - <math>\dot{y}</math>
+ 
+ <math>\delta M = Ay\rho</math>
+ 
+ Assume conservation of energy - <math>\frac12 M \dot{y}^2 +  \delta M g y = Constant</math>  
+ <math>\frac12 A l \rho \dot{y} = A \rho g y^2 = C</math>
+ 
+ <math>\frac{d}{dt} \Rightarrow \ddot{y} + \frac{2g}{l}y = 0</math>
+ 
+ <math> T = 2 \pi \sqrt{\frac{l}{2g}}</math>  
+ (same as pendulum with string length half of l)
+ 
+### Torsional Pendulum
+
+&kappa; is torsional spring constant (Nm / rad)
+
+ <math>\tau_p = -\kappa \theta = I_p \alpha</math>  
+ <math>\ddot{\theta}+ \frac{\kappa \theta}{I_p} = 0</math>
+ 
+ <math>t = 2\pi \sqrt{\frac{I_p}{\kappa}}</math>
+ 
+ &kappa; is a function of cross-sectional area, length, and material
+

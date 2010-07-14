@@ -1,0 +1,44 @@
+$$course:8.01
+$$lecture:13
+$$type: notes
+$$date: 2009-09-15
+$$source: 8.01 Lecture 13
+$$title: Potential Energy and SHM
+
+Negative work -> gravity does positive work (and vice versa)
+
+Potential energy = u
+
+
+#### Springs
+
+ <math> u = \int F \, dx  = \int\limits_b^a kx \, dx = \frac{1}{2} kx^2 </math>
+
+ <math> \frac{du}{dx} = -F_x</math>
+ 
+ 
+ = Force is always in the direction opposite increasing potential energy
+
+#### Simple gravity
+
+ <math> u = + mgy </math>
+ 
+ <math> \frac{du}{dy} = mg = -F_y</math>
+ 
+#### General Gravity
+
+ <math> u = \frac{-m M G}{r} </math>
+ 
+ <math> \frac{du}{dr} = \frac{m M G}{r^2} = -F_g</math>
+ 
+#### Stable / Unstable equilibrium
+
+On ramps/hills with x position and height y: 
+
+Equilibrium points where <math>\frac{du}{dx} = 0</math>
+
+Stable equilibrium where <math>u''</math> is positive, unstable where negative
+
+- Ball rolling on a track shaped as a circle segment has same equation as pendulum
+
+- Pendulum: Force is always perpendicular to direction of motion, so no work is done total kinetic + potential energy constant

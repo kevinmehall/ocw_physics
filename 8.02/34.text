@@ -1,0 +1,32 @@
+$$course: 8.02
+$$lecture:34
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 34
+$$title: Multiple-slit interference, diffraction, resolution
+$$use-outline: true
+
+Gratings
+	Multiple slits	
+	All constructively interfere at the same points -> same as 2 slit
+	Peaks are thinner, destructive troughs are larger (proportional to number of slits)
+	Colors separate
+	<m>d =</m> distance between slits
+	<m>\theta_n = \frac{n \lambda}{d}</m>
+	N-1 minima between each maxima (N = number of slits)
+
+Diffraction
+	Single-slit interference
+	narrower the slit, the wider the diffraction pattern
+	<m>\theta = {\lambda}{a}</m> where a = width of slit
+
+Resolution
+	Limited by diffraction
+	Rayleigh criterion
+		<m>\theta = \frac{1.2 \lambda}{a}</m>
+	Human eye about 1 arcminute
+
+
+
+
+

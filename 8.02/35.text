@@ -1,0 +1,26 @@
+$$course: 8.02
+$$lecture:35
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 35
+$$title: Doppler Effect, Cosmology
+$$use-outline: true
+
+Doppler effect
+	Sound
+		<m>f'  = f \frac{v_{sound} - v_{receiver}}{v_{sound} - v_{transmitter}}</m>
+	Light
+		<m>f' = f \left (\frac{1-\beta}{1+\beta}\right)^{\frac12}; \beta = \frac{v_{relative}}{c}</m>
+		Special relativity negates the difference between transmitter and receiver - only relative velocity matters
+	
+Used to determine velocity of stars by comparing known spectral lines
+
+Hubble's law
+	v = H d 
+	H = 72 km/s / Mpc
+
+<m>v = d \left(\frac{1}{R} \frac{dR}{dt} \right)</m>
+	<m>H = \left(\frac{1}{R} \frac{dR}{dt} \right)</m>
+	Hubble's constant changes with time
+
+Open/Closed/Flat

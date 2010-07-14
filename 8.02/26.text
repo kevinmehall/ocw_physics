@@ -1,0 +1,27 @@
+$$course: 8.02
+$$lecture:26
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 26
+$$title: Waves
+$$use-outline: true
+
+<m>T = \frac{2\pi}{\omega}</m>
+
+<m>\lambda = vT = \frac{v}{f}</m>
+
+<m>f = \frac{v}{\lambda}</m>
+
+<m>v = \frac{\omega}{k}</m>
+
+Standing Waves
+	<m>y_1 + y_2 = y_0 sin (kx - \omega t ) + y_0 sin (kx + \omega t)</m>
+	<m>= y = 2 y_0  sin (kx) cos (\omega t)</m>
+	
+	<m>\lambda_n = \frac{2L}{n}</m>
+	<m>f_n = \frac{nv}{2L}</m>
+	
+<m>v \propto \sqrt{ \frac{Tension}{\frac{mass}{length}}}</m>
+
+<m>v \propto \sqrt{ \frac{temp}{molecular\,weight}}</m>
+	

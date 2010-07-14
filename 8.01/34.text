@@ -1,0 +1,22 @@
+$$course:8.01
+$$lecture:34
+$$type: notes
+$$date: 2009-11-17
+$$source: 8.01 Lecture 34
+$$title: Quantum Mechanics
+
+electron can only exist in well-defined energy levels
+
+ <math> E=hf </math>
+ 
+ <math>E=\frac{hc}{\lambda}</math>
+
+emission spectrum
+
+ <math>\lambda = \frac{h}{p}</math>
+
+**Heisenberg Uncertainty Principle** - the very concept of exact position of an object and its exact momentum together have no meaning in nature
+
+ <math>\Delta p \Delta x > h/2\pi = \hbar = 10^-34 J sec </math>
+
+ 

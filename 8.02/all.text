@@ -1,0 +1,12 @@
+$$type: page
+$$title: MIT OCW 8.02: Electricity and Magnetism
+$$use-markdown: false
+$$use-cheetah: true
+
+#for $p in $pages().where(course='8.02').where(type='course')
+$p.tpl_type(mode='teaser')
+#end for
+
+#for $p in $pages().where(course='8.02').where(type='notes').sortby_num('lecture')
+$p.tpl_type(mode='teaser')
+#end for

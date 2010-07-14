@@ -1,0 +1,37 @@
+$$course: 8.02
+$$lecture:24
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 24
+$$title: Transformers; Car Coils; RC Circuits
+$$use-outline: true
+
+* RC Circuits
+	Resistor and capacitor in series
+	Charge phase
+		Voltage across capacitor asymtotically increases to battery voltage
+			<m>I(t) = \frac{V_0}{R}r^{-t / RC}</m>
+		Current asymtotically decreases
+			<m>V(t) = V_0 \left(1- e^{-t/RC} \right)</m>
+		At time <m>RC</m> = time constant or decay time
+			<m>I = \frac{1}e\frac{V_0}{R}</m> (~37% I_0)
+			<m>V = (1-\frac{1}e)V_0</m> (~63% V_0)
+	Discharge phase
+		<m>I(t) = - \frac{V_0}{R}r^{-t / RC}</m>
+		
+		
+Transformers
+	primary and secondary coils with magnetic flux coupling
+	<m>V_1 = -L_1 \frac{dI_1}{dt}=\mathcal{E}_1 = -N_1 \frac{d\Phi_B}{dt}</m> by Faraday's law
+	<m>V_2 = -L_2 \frac{dI_2}{dt} = \mathcal{E}_1 = -N_2 \frac{d\Phi_B}{dt}</m>
+	<m>\frac{V_2}{V_1} = \frac{N_2}{N_1}</m>
+	Assuming
+		<m>R << \omega L</m>
+		No energy loss through eddy currents in core
+		Perfect flux coupling
+	then <m>I_1 V_1 = I_2 V_2</m>
+	
+Spark Plugs - Car coils
+	High voltage from 12V car battery
+	Run DC through a transformer where <m>N_2 >> N_1</m>
+	When circuit is broken, high voltage pulse in secondary coil

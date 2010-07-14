@@ -1,0 +1,56 @@
+$$course:8.01
+$$lecture:19
+$$type: notes
+$$date: 2009-09-23
+$$source: 8.01 Lecture 19
+$$title: Rotating Rigid Bodies
+ 
+ 
+ &omega; = angular velocity (rad / s )
+ 
+ &alpha; = angular acceleration (rad/s^2)
+ 
+ I = moment of inerta (kg m^2)
+ 
+ 
+ 
+ 
+ 
+ <math>v_{tan} = \omega R = \dot{\theta} </math>
+ 
+ <math>a_{tan} = \dot{\omega} R = \ddot{\theta}R = \alpha R</math>  
+
+ 
+ <math>x \Rightarrow \theta</math>  
+ <math>v \Rightarrow \omega</math>  
+ <math>a \Rightarrow \alpha</math>  
+ <math>m \Rightarrow I</math>
+ 
+ e.g <math>\theta = \theta_0 + \omega_0 + \frac12 \alpha t^2</math>  
+ <math> \omega = \omega_0 + \alpha t</math>
+ 
+ <math> K = \frac12 I \omega^2</math>
+ 
+ Given a point particle of mass m at position r away from center of disc:  
+ <math> K_i = \frac12 m_i v_i^2 = \frac12 m_i \omega^2 r_i^2 </math>
+ 
+ <math>K = \frac{w^2}{2} \sum m_i r_i^2 = I</math> (moment of inertia) 
+ 
+ Disk rotating around and perpendicular to center:  
+ <math>I_c = \frac12 m R^2</math>
+ 
+ Solid sphere:  
+ <math>I = \frac25 m R^2</math>
+ 
+ Rod rotating around center point perpendicular to length:  
+ <math>I = \frac12 ml^2</math>
+ 
+ Parallel axis theorem:  
+ When rotating around an axis <math>l' \parallel l</math> distance d away from l <math> I' = I + md^2</math>
+ 
+Rotational kinetic energy of sun = 1.5 x 10^35 J
+
+If world power consumption came from slowing earth's rotation, the day would be 2.4 seconds longer after a year
+
+Crab pulsar - high rotational kinetic energy turning into X rays
+

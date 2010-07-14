@@ -1,0 +1,61 @@
+$$course: 8.02
+$$lecture:22
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 22
+$$title: Hysteresis; Bohr Magneton; Maxwell's Equations
+$$use-outline: true
+
+\kappa_m because dipoles move with field
+
+Magnetic dipole moment of an atom
+	Modelling electron with classical mechanics
+	
+	<m>m_e = 9.1 x 10^{-31} kg </m>
+	<m>e = 1.6 x 10^{-19} C</m>
+	<m>Radius_{orbit} = 5 x 10^{11} m</m> (Bohr radius)
+	
+	Electron orbiting atom = current (in opposite direction of electron)
+		creates magnetic field
+		<m>\mu = IA</m>
+			<m>A  = \pi R^2 = 8 x 10^{-21} m^2</a>
+			<m>F = \frac{e^2}{4\pi\epsilon_0R^2} = \frac{mv^2}{R}</m>
+				<m>v = \sqrt{\frac{e^2}{m4\pi\epsilon_0R}} = 2.3 x10^6 ms^{-1}</m>
+					5 millon mph - to the moon in 3minutes
+				<m>T = \frac{2\pi R}{v} = 1.4 x 10^{-16} s</m>
+			<m>I = \frac{e}{T} = 1.1 x 10^{-3} A</m>
+			<m>\mu = 9.3 x 10^{-24} Am^2</m> Bohr magneton
+				QM says that magnetic moment of all electron in orbits must be a multiple of this number
+	Electrons also have spin
+	Most atoms/molecules have moment = 1, 2, 3 Bohr magneton
+	
+	<m>\vec{B} = \vec{B_{vac}} + \vec{B'}</m>
+		B' depends on strength of field and lower temperature
+		
+	if <m>B' \propto B_{vac}</m>
+		<m>B = (1+X_m)B_{vac} = \kappa_m B_{vac}</m>
+		possibly not true for ferromagnetics
+		
+saturation is possible where all dipoles are aligned - ferromagnetics
+	approx B' = 2.3T for example (2 bohr magnetons) and specific density
+	graph of B vs B_vac flattens and no longer proportional to <m>\kappa_m</m>
+	
+if vacuum field is then reduced to 0
+	B' does not fall to 0 - some domains remain aligned - metal has been magnetized
+		Hysteresis curve
+			for one value of B_vac, there are 2 possible values of B'
+		can be demagnetized by slowly decreasing amplitude of current
+	
+Ferromagnets change field configuration nearby - pulled towards metal and decreased elsewhere
+
+Maxwell's equations revisited
+	Ampere's law has to be amended by a factor of <m>\kappa_m</m>
+	<m>\oint B.dl = \kappa_m \mu_0 \left ( I_{pen} + \epsilon_0 \kappa \frac{d \Phi_e}{dt} \right)</m>
+	
+	
+			
+			
+		
+	
+	
+	

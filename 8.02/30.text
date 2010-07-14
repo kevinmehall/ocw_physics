@@ -1,0 +1,31 @@
+$$course: 8.02
+$$lecture:30
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 30
+$$title: Polarization, Scattering
+$$use-outline: true
+
+Malus's Law
+	<m>I_1 = I_0 cos^2 \theta</m>
+
+Reflected and refracted light become polarized
+	<m>E_{par_{refl}} = E_{par_{inc}} = \frac{ n_1 cos \theta_2 - n_2 cos \theta1}{n_1 cos \theta_2 + n_2 cos \theta_1} = -E_{par} = \frac{tan(\theta_1 - \theta_2)}{tan(\theta_1 + \theta_2}</m>
+	when <m>\theta_1 + \theta_2 = 90^\circ</m>, <m>E_{par} = 0</m> - 100% polarized light
+	<m>\frac{n_2}{n_1} = tan \theta_1</m>
+		Brewster Angle
+	Only apples to dielectrics, not conductors
+
+Light scattered off dust (<10 micron) at right angle becomes polarized
+	oscillates electrons in particle; accelerated charged particles produce light
+	particle re-radiates at same frequency, but direction changes, hence scattering
+	At 90&deg;
+		light has to be polarized because E-field must be perpendicular to r (line from dust to you), and in the plane of r and a
+	Partially polarized at other angles
+	Unpolarized at angle 0
+	Probablitiy of scattering 10x higher for blue light than red light
+		Sky blue because of this phenomenon
+			linearly polarized at 90&deg; away from sun
+		Sun rise and set are red because they are just above the horizon and blue light has already scattered out
+		Demo at 46:00
+

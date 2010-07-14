@@ -1,0 +1,13 @@
+$$course: 8.02
+$$lecture:2
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 2
+$$title: Electric Fields
+
+<m>\vec{E} = \frac{\vec{F}}{q} = \frac{Qk}{r^2} \hat{r}</m> (<m>N C^{-1}</m>)
+
+Net field at a point is sum of all electric fields from all other charges.
+
+Dipoles
+

@@ -1,0 +1,38 @@
+$$course: 8.02
+$$lecture:5
+$$type: notes
+$$date: 2010-01-18
+$$source: 8.02 Lecture 5
+$$title: More Electrostatic Potential
+$$use-outline: true
+
+If a charge moves through a field and returns to its starting point
+	W = 0
+	<m>\oint</m> means line is closed
+	<m>\oint \vec{E} \cdot \vec{dl} = 0</m>
+	
+	<m>\frac{dV}{dr} \vec{r} = -E</m>
+	
+Equipotential lines always perpendicular to field lines because if you move only perpendicular to field lines, you do no work
+
+Somewhere in space at point P, potential V_P
+	step in x direction
+		<m>E_x = \frac{\partial V}{\partial x} | _{yz}</m>
+			
+Units for E: N/C = V/m
+
+<m>\vec{E} = - \left( \frac{\partial V}{\partial x} \hat{x} + \frac{\partial V}{\partial y} \hat{y} + \frac{\partial V}{\partial z} \hat{z} \right)</m>
+	<m>\vec{E} = -\nabla V</m>
+	
+Equipotential lines between oppositely charged parallel plates are parallel to plates
+	
+Electrostatic shielding - Faraday cage
+	Charge in conductors re-arranges itself until potential is equal
+		Goes to outer surface
+		
+	Conducting sphere with charge +q somewhere inside
+		Gauss surface inside metal has 0 surface integral, therefore there must be 0 net charge inside
+		Negative charge moves to inside = -q, and +q on outside
+			Like induction
+		Uniform outside charge, independent of position of charge inside
+	

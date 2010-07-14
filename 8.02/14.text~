@@ -1,0 +1,43 @@
+$$course: 8.02
+$$lecture:14
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 14
+$$title: Biot-Savart Law
+$$use-outline: true
+
+<m>B \propto \frac{I}{R}</m>
+
+Biot-Savart Law
+	<m>\vec{dB} = \frac{CId\vec{l}}{R} \times \hat{r}</m> 
+		where C = 10^-7 = <m>\frac{\mu_0}{4\pi}</m>
+	
+	Straight wire	
+		<m>B = \frac{\mu_0 I}{2 \pi R}</m>
+		
+	Wire loop
+		<m>B = \frac{\mu_0 I}{2R}</m>
+	
+Maxwell's 2nd Equation
+	<m>\oint\vec{B} . d\vec{A} = 0<m> unless you have a magnetic monopole
+
+Power lines
+	<m>V_a - V_b = IR</m>
+	<m>V_b = V_a - IR</m>
+	<m>V_b I = V_a I - I^2R</m>
+		<m>V_b I</m> = Power consumed
+		<m>V_a I</m> = Power produced
+		<m>I^2 R</m> = Power lost
+		
+	Making wires thicker lowers resistance, but is expensive
+	
+	Heat loss <m>\propto I^2 R</m> but power <m>\propto VI</m>, so higher voltage is more efficient.
+	
+	But must avoid breakdown voltage / corona discharge
+	
+Leyden Jar
+	Can be charged, disassembled, all parts discharged, and when reassembled, still has a charge.
+		Happens because of corona discharge to the glass
+			Most power is stored on the surface of the glass		
+	
+	

@@ -1,0 +1,66 @@
+$$course:8.01
+$$lecture:22
+$$type: notes
+$$date: 2009-10-02
+$$source: 8.01 Lecture 22
+$$title: Kepler's Laws
+
+#### Circular Orbits
+<img src='/physics/img/lec22_equations.png' />
+
+#### Kepler's Laws
+  1. Orbits are ellipses, with sun at one focus
+  2. Equal area in equal time
+  3. <math>T^2 \propto \bar{d}^3</math>
+  
+#### Elliptical Orbits
+<img src='/physics/img/lec22_ellipse.png' />
+
+Apogee to Perigee = 2a, where a is semi-major axis
+
+(5) <math>E_{tot} = K + U = \frac12 m v^2 - \frac{mMG}{r} = - \frac{mMG}{2a}</math>
+
+(6) <math>T^2 = \frac{4\pi^2 a^3}{MG}</math>
+
+(7) <math>v_{esc} = \sqrt{\frac{2MG}{r}}</math> (set E = 0 in (5))
+
+r and v change with time in an ellipse
+
+Two orbits with the same <math>a</math> but different shape have the same energy and period
+
+Everything can be found if you have <math>M, v_0, r_o, \Phi_0</math> at any point D
+
+Find <math>E_{tot}</math> with (5)  
+Find <math>T</math> with (6)
+
+Angular momentum must be conserved around point Q (the star)  
+Angular Momentum: <math>|L_q| = m v_D r_D sin \Phi_D = m v_p (QP)</math>  
+Energy: <math>E_{tot} = \frac12 m  v_p^2 - \frac{mMG}{QP} - \frac{mMG}{2a}</math>(velocity perpendicular, so sin=1)  
+2 equations, 2 unknowns -> quadratic with 2 solutions - <math>v_p, v_a</math> 
+
+ <math>|QP| v_p = |QA| v_a</math> to conserve angular momentum
+
+#### Orbital Change
+
+Firing a rocket tangential to orbit (increasing velocity)
+
+Total Energy increases -> elliptical orbit with <math>2a > 2R, T'>T</math>  
+(or opposite if you fire the other way and reduce energy)
+
+#### Ham sandwich problem
+2 people in circular orbit, distance <math>f 2 \pi R</math> apart
+
+Trying to launch a ham sandwich from one to the other
+
+ <math>T_{sandwich} = (1-f)T_{astronaut}</math>, so the other astronaut
+ is at the same place as the sandwich on astronaut's next orbit
+ 
+ <math>\sqrt{\frac{4 \pi^2 a^3}{GM}} = (1-f)\sqrt{\frac{4 \pi^2 R^3}{GM}}</math>  
+ <math>a^{\frac32} = (1-f) R^{\frac32}</math>
+ <math>a = R(1-f)^{\frac23}</math>  
+ then use (5) to find velocity
+
+Other solutions for other integer numbers of orbits before catch for both astronaut and sandwich
+
+
+

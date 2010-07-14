@@ -1,0 +1,16 @@
+<div class='node node-$page.type'>
+<div class='node-date'>
+</div>
+<div class='node-content'>
+<h2><a href='$page.url'>$page.title</a></h2>
+#if $page.course
+<em class='source'><a href='$base$page.course'>$page.course</a>
+#if $page.lecture
+Lecture $page.lecture
+#end if
+</em>
+#end if
+$page.get_body
+
+</div>
+</div>

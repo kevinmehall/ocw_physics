@@ -1,0 +1,25 @@
+$$course:8.01
+$$lecture:25
+$$type: notes
+$$date: 2009-10-14
+$$source: 8.01 Lecture 25
+$$title: Static Equilibrium
+
+
+Static equilibrium: <math>\sum{F} = 0</math> and <math>\sum{\tau} = 0</math> around any point
+
+
+
+Friction can be used to help balance:
+
+
+Frictional force on a rope wrapped around a rod: integral of individual forces around angle
+
+ <math>\frac{T_2}{T_1} = e^{\mu \theta} </math> where T2 is heavier than T1
+
+
+Object hanging by point P other than center of mass: stable when P aligned vertically
+with center of mass so sine = 0 and torque = 0. Stable equilibrium when CM below P
+
+
+Rope Walker - If you put the center of mass below the rope, it's very stable

@@ -1,0 +1,32 @@
+$$course: 8.02
+$$lecture:27
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 27
+$$title: Resonance; Electromagnetic waves
+$$use-outline: true
+
+Breaking a wine glass demo
+Tacoma Narrows Bridge
+
+* Electromagnetic Waves
+	<m>\vec{E} = E_0 \hat{x} cos (kz - \omega t)</m>
+	<m>\vec{B} = B_0 \hat{y} cos (kz - \omega t)</m>
+	<m> B_0 = \frac{E_0}{c}</m>
+	<m>\frac{\omega}{k} = c = \frac{1}{\sqrt{\epsilon_0 \mu_0}}</m>
+	
+	<m>B_0 = \epsilon_0 \mu_0 E_0 c</m>
+		then apply faraday's law to prove speed of light
+		
+	* Invariants
+		<m>\vec{E} \perp \vec{v}</m>
+		<m>\vec{B} \perp \vec{v}</m>
+		<m>\vec{E} \perp \vec{B}</m>
+		<m>\vec{E}</m> and <m>\vec{B}</m> are in phase
+		<m>\hat{E} \times \hat{B} = \hat{v}</m>
+		
+
+		
+	
+	
+

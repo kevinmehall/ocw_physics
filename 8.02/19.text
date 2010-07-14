@@ -1,0 +1,37 @@
+$$course: 8.02
+$$lecture:19
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 19
+$$title: Applications of electromagnetism
+$$use-outline: true
+
+The heart
+	-80mV inside heart cells
+		Electric field across cell wall
+	Goes to +20mV when activated
+		polarization wave travels downward, causing muscle to contract
+		then depolarization wave travels up, returning original charge and causing muscle to relax
+	Wave transfers by moving ions in and out of cells
+		Creates dipole field
+	
+	Electrocardiogram measures potential difference caused by this field
+	
+	defribulators / pacemakers
+	
+Aurora Borealis
+	Electrically charged particles spiral around magnetic field lines
+	Solar wind contains charged particles, which are guided into north/south poles by earth's magnetic field
+	Interact with nitrogen/oxygen to create light
+
+Superconductivity
+	Impossible to have an electric field in a superconductor
+	When approached by a magnet, emf must remain 0, so eddy currents will flow to never allow magnetic flux
+		superposition of 2 fields squeezes the field around the superconductor 
+		magnetic pressure <m>P = \frac{B^2}{2\mu_0}</m> [N/m^2]
+		eddy current will always repel magnet, no matter what orientation
+
+Maglev train
+	magnet moving over conducting plate also creates similar magnetic pressure
+	AC Current through coil over plate works similarly and doesn't have to move
+	

@@ -1,0 +1,26 @@
+$$course:8.01
+$$lecture:32
+$$type: notes
+$$date: 2009-11-17
+$$source: 8.01 Lecture 32
+$$title: Heat - Thermal Expansion
+
+
+Celcius vs Fahrenheit vs Kelvin
+
+
+Length Expansion proportional to delta temperature  
+ <math>\Delta L = \alpha L \Delta T</math> (&alpha; = linear expansion coefficient)
+
+
+Bimetal strips
+
+
+Volume increase = <math>(L+\Delta L)^3 = L^3(1+\frac{\Delta L}{L})</math>
+
+When x is small, <math>(1+x)^n</math> can be approximated by <math>1 + nx</math>
+
+ <math>\Delta V = 3 \Delta L L^2 = 3\alpha V \Delta T</math>  
+ <math>\beta = 3 \alpha</math>
+
+Water expands when cooled 4&degree;C - 0&degree;C - negative &beta; - and ice expands further

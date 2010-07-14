@@ -1,0 +1,23 @@
+$$course: 8.02
+$$lecture:10
+$$type: notes
+$$date: 2010-01-10
+$$source: 8.02 Lecture 10
+$$title: Batteries and EMF
+$$use-outline: true
+
+In resistor part of circuit, current goes in the same direction as electric field, but in power source, electric field still goes + to -, so field is in opposite direction of current -- something must push the charge against the electric field.
+
+Copper-Zinc battery: Cu + , Zn -
+	SO4- ion flows against electric field because when it reacts with Zn+, more energy is released than it costs to flow
+	
+<m>V_b = IR - \mathcal{E} - I r_i</m>
+
+<m>P = IV = I^2 R = \frac{V^2}{R}</m>
+
+Kirchhoff's Rules
+	1\. <m>\oint E \dot dl = 0</m> - Around any closed loop there is no potential difference
+	2\. Charge conservation
+	3\. <m>\int_A^B E \dot dl = V_{AB}</m>
+	
+[Kelvin Water Dropper](http://en.wikipedia.org/wiki/Kelvin_water_dropper)

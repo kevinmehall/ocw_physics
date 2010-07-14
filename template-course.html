@@ -1,0 +1,35 @@
+<div class='node node-$page.type'>
+<div class='node-date'>
+</div>
+<div class='node-content'>
+<h2><a href='$page.url'>$page.title</a></h2>
+
+$page.get_body
+
+<table>
+<thead>
+<tr><th>#</th><th>Title</th></tr>
+</thead>
+<tbody>
+#for $p in $pages().where(course=$page.course).where(type='notes').sortby_num('lecture')
+<tr>
+<td>$p.lecture</td>
+<td><a href='$p.url'>$p.title</a></td>
+</tr>
+#end for
+</tbody>
+</table>
+
+
+<h3>Other materials</h3>
+<ul>
+#for $p in $pages().where(course=$page.course).notwhere(type=['notes', 'course']).sortby_num('lecture')
+<li>
+<a href='$p.url'>$p.title</a>
+</li>
+#end for
+</ul>
+
+
+</div>
+</div>

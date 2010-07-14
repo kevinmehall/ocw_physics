@@ -1,0 +1,18 @@
+$$title: Kevin Mehall | Physics Independent Study
+$$type: page
+$$use-cheetah: true
+$$use-markdown: false
+
+
+<div id='topinfo'>
+<p>
+This site consists of my notes from MIT OpenCourseWare physics.
+</p>
+
+
+</div>
+
+#for $p in $pages().where(type='course').sortby('date_h', 'source', 'type').reverse()
+$p.tpl_type(mode='teaser')
+#end for
+
