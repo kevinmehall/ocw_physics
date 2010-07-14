@@ -1,0 +1,63 @@
+#wrap{
+	margin-top:40px;
+}
+
+#hd{
+	display: none;
+}
+
+
+#author{
+	padding: 0;
+	color:black;
+	display:block;
+	position: absolute;
+	right:0;
+	top:0;
+	margin-bottom: -40px;
+}
+
+.source{
+	position:absolute;
+	top:16px;
+	right:10px;
+	float:none;
+	
+}
+
+.source a{
+	text-decoration:none;
+	color:black;
+}
+
+.actions{
+	display: none;
+}
+
+.node{
+	page-break-inside:avoid;
+}
+
+.node-content h2{
+	left: 0;
+}
+
+.node-content{
+	margin-left: 0;
+}
+
+.outline, .outline p, .math{
+	position:relative;
+}
+
+.node-date{
+	display: none;
+}
+
+.comments, .actions{
+	display: none;
+}
+
+#ft{
+	display: none;
+}

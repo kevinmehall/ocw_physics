@@ -1,17 +1,17 @@
-<div class='node node-$page.type'>
+<div class='node node-$type'>
 <div class='node-date'>
 </div>
 <div class='node-content'>
-<h2><a href='$page.url'>$page.title</a></h2>
+<h2><a href='$url'>$title</a></h2>
 
-$page.get_body
+$body
 
 <table>
 <thead>
 <tr><th>#</th><th>Title</th></tr>
 </thead>
 <tbody>
-#for $p in $pages().where(course=$page.course).where(type='notes').sortby_num('lecture')
+#for $p in $site.all_pages.where(course=$course).where(type='notes').sortby('lecture')
 <tr>
 <td>$p.lecture</td>
 <td><a href='$p.url'>$p.title</a></td>
@@ -23,7 +23,7 @@ $page.get_body
 
 <h3>Other materials</h3>
 <ul>
-#for $p in $pages().where(course=$page.course).notwhere(type=['notes', 'course']).sortby_num('lecture')
+#for $p in $site.all_pages.where(course=$course).notwhere(type=['notes', 'course']).sortby('lecture')
 <li>
 <a href='$p.url'>$p.title</a>
 </li>

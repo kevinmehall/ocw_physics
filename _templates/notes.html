@@ -1,0 +1,16 @@
+<div class='node node-$type'>
+<div class='node-date'>
+</div>
+<div class='node-content'>
+<h2><a href='$url'>$title</a></h2>
+#if $course
+<em class='source'><a href='$base$course'>$course</a>
+#if $lecture
+Lecture $lecture
+#end if
+</em>
+#end if
+$body
+
+</div>
+</div>
