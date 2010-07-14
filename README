@@ -1,0 +1,8 @@
+Pages are rendered to HTML with TinySite [yet to be publicly released].
+
+Text in <m> or <math> tags is rendered as LaTeX with JSMath
+
+(C) 2009-2010 Kevin Mehall
+These notes are available under the Creative Commons 
+Attribution-NonCommercial-ShareAlike 3.0 Unported License
+http://creativecommons.org/licenses/by-nc-sa/3.0/ 
