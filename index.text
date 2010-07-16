@@ -20,6 +20,6 @@ This site consists of my notes from MIT OpenCourseWare physics.
 </div>
 
 #for $p in $site.all_pages.where(type='course').sortby('date', 'source', 'type').reverse()
-$p.render(mode='teaser')
+$p.render($p.type, mode='teaser')
 #end for
 
